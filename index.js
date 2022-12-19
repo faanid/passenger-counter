@@ -5,6 +5,10 @@ let count = 0
 function increment() {
     count += 1
     countEl.textContent = count
+    
+    if(count > 0){
+        value.style.color = darkgreen;
+    }
 }
 
 function save() {
