@@ -7,7 +7,7 @@ function increment() {
     countEl.textContent = count
     
     if(count > 0){
-        value.style.color = darkgreen;
+        countEl.style.color = darkgreen;
     }
 }
 
