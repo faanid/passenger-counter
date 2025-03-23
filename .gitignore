@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Build directory
+/dist/
+
+# IDE configuration files
+.vscode/
+
+# Any other files that should be ignored
+*.log
