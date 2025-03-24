@@ -1,22 +1,21 @@
-// src/components/Counter.js
 import { formatNumber } from "./utils.js";
-
 export default class Counter {
   constructor(elementId) {
     this.countEl = document.getElementById(elementId);
     this.count = 0;
   }
-
   increment() {
     this.count++;
     this.updateDisplay();
   }
-
+  customIncrement(){
+    this.count += 5;
+    this.updateDisplay();
+  }
   save(saveEl) {
     saveEl.textContent += formatNumber(this.count) + " - ";
     this.reset();
   }
-
   reset() {
     this.count = 0;
     this.updateDisplay();

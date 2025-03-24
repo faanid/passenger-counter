@@ -43,6 +43,13 @@ button {
 #save-btn {
     background: #1C7947;
 }
+#custom-btn {
+ background: #8f508c;   
+}
+#reset-btn {
+ background: #3e4821;   
+}
+
 
 #save-el {
     font-weight: bold;
