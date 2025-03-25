@@ -8,8 +8,10 @@ export default class Counter {
     this.count++;
     this.updateDisplay();
   }
-  customIncrement(){
-    this.count += 5;
+  decrement(){
+    if(this.count > 0){
+      this.count--;
+    }
     this.updateDisplay();
   }
   save(saveEl) {
