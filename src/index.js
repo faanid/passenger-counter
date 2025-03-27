@@ -1,4 +1,5 @@
 import Counter from "./components/Counter";
+import './components/theme-switch'
 
 const counter = new Counter("count-el");
 const saveEl = document.getElementById("save-el");
